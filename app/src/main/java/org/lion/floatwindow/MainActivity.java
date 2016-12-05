@@ -145,10 +145,10 @@ public class MainActivity extends AppCompatActivity {
                 public void onClick(View v) {
                     if (mFlowViewShow) {
                         mFloatView.setVisibility(View.GONE);
-                        ivDown.setImageResource(R.drawable.up_arrow);
+                        ivDown.setImageResource(R.drawable.homework_up_arrow);
                     } else {
                         mFloatView.setVisibility(View.VISIBLE);
-                        ivDown.setImageResource(R.drawable.down_arrow);
+                        ivDown.setImageResource(R.drawable.homework_down_arrow);
                     }
                     mFlowViewShow = !mFlowViewShow;
                 }

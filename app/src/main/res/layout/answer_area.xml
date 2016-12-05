@@ -34,7 +34,7 @@
             android:layout_height="match_parent"
             android:layout_weight="2"
             android:gravity="center_vertical"
-            android:src="@drawable/down_arrow" />
+            android:src="@drawable/homework_down_arrow" />
 
         <ImageView
             android:id="@+id/iv_prev"
@@ -43,7 +43,7 @@
             android:layout_weight="1"
             android:gravity="center_vertical"
             android:padding="10dp"
-            android:src="@drawable/left_arrow" />
+            android:src="@drawable/homework_left_arrow" />
 
         <ImageView
             android:id="@+id/iv_next"
@@ -52,7 +52,7 @@
             android:layout_weight="1"
             android:gravity="center_vertical"
             android:padding="10dp"
-            android:src="@drawable/right_arrow" />
+            android:src="@drawable/homework_right_arrow" />
 
     </LinearLayout>
 
